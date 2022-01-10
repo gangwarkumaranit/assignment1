@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment1</title>
+        <style>
+            body{
+                background-color: #d7e7f4;
+                margin: 0px;
+                padding: 0px;
+            }
+            .container{
+                background-color: white;
+                width: 954px;
+                height: 900px;
+                margin: 0px auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            .logo{
+                padding-left: 22px;
+            }
+            .content{
+                padding-right: 22px;
+            }
+            .login{
+                color: #007BAF;
+                text-decoration-line:underline;
+                text-align: right;
+            }
+            
+            input{
+                padding: 5px;
+                margin-right: 8px;
+            }
+            .search{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="#">
+            </div>
+            <div class="content">
+                <h4 class="login">Login to my Account</h4>
+                <div class="search">
+                    <input type="text" placeholder="Search entire store here">
+                    <img src="search.png" alt="#" id="searchbtn">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
